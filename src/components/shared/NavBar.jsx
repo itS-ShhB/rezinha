@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function NavBar() {
   return (
-    <header className="flex bg-[#333652] text-white z-30 w-full top-0 fixed border-b-2 border-[#FAD02C]">
+    <header className="flex bg-[#333652] text-white z-30 w-full top-0 sticky border-b-2 border-[#FAD02C]">
       <ul className="flex items-start justify-start w-full">
         <motion.li
           whileHover={{ scale: 1.2, opacity: 1 }}

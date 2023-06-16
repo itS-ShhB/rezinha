@@ -5,6 +5,6 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App className="font-cabin" />
+    <App className="font-cabin flex" />
   </React.StrictMode>
 );
